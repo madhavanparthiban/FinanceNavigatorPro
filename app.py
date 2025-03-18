@@ -93,7 +93,7 @@ selected_tab = st.sidebar.selectbox("Select a Tab", tabs)
 
 # Content based on selected tab
 if selected_tab == "Chatbot":
-    st.title("💰 Personal Finance Chatbot")
+    st.title("💰 Personal Finance Navigator")
     st.write("Ask me anything about your personal finances!")
 
     # Display chat history
